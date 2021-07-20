@@ -99,10 +99,10 @@ app.use(function (err, req, res, next) {
 });
 
 http.listen(process.env.HTTP, function(){
-  console.log('listening on *:'+process.env.PORT);
+  console.log('listening on *:'+process.env.HTTP);
 });
 
-
+/*
 https.createServer({
   key: fs.readFileSync('server.key'),
   cert: fs.readFileSync('server.crt')
@@ -110,3 +110,4 @@ https.createServer({
 .listen(process.env.HTTPS, function () {
   console.log(`Example app listening on port ${process.env.HTTPS}! Go to https://localhost:${process.env.HTTPS}/`)
 })
+*/
