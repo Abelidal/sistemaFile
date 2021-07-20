@@ -14,9 +14,9 @@
                             <v-col>
                                 <v-select :items="items" v-model="corporativo.winSiNo" label="¿Ingresar al Win de su Institución?"></v-select>
                             </v-col>
-                            <!--<v-col>
+                            <!-- <v-col>
                                 <v-btn outlined color="indigo">Nro. Favorito</v-btn>            
-                            </v-col>-->
+                            </v-col> -->
                         </v-row>
                         <v-row no-gutters>    
                             <v-col>
