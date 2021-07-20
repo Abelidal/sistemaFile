@@ -3,12 +3,12 @@
         <v-card>
             <div class="pa-2 headline grey lighten-2  text-center">
                 <img src="~/assets/logo1.png" alt="DATACOM" class="">
-                <h5>SOLICITA TU SERVICIOS</h5>
+                <h5>SOLICITA TUS SERVICIOS</h5>
             </div>
             <v-card-text>
                 <v-container>
                     <div class="text-center">
-                        <img src="~/assets/logo.png" alt="DATACOM" width="250" class="right VuetifyLogo">
+                        <img src="~/assets/logoentel.png" alt="DATACOM" width="250" class="right VuetifyLogo">
                     </div>
                     <v-row>
                     </v-row>
