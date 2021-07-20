@@ -2,7 +2,7 @@
     <div class="pa-2">
         <v-card>
             <div class="pa-2 headline grey lighten-2  text-center">
-                LO QUE NECESITA ESTÁ AQUI
+                LO QUE NECESITAS ESTÁ AQUI
             </div>
             <v-card-text>
                 <v-container>
