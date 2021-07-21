@@ -2,7 +2,7 @@
     <div class="pa-2">
         <v-card>
             <div class="pa-2 headline grey lighten-2  text-center">
-                LO QUE NECESITA ESTÁ AQUI
+                AGENDAREMOS LA FIRMA DE TU CONTRATO
             </div>
             <v-card-text>
                 <v-container>
@@ -50,10 +50,10 @@
                             <v-text-field label="Dirección" hide-details="auto"></v-text-field>
                         </v-col>
                         <v-col class="pa-1" cols="12" sm="12" md="4">
-                            <v-select :items="ciudades" label="¿En que ciudad te encuentras?" solo></v-select>
+                            <v-select :items="ciudades" label="¿En qué ciudad te encuentras?" solo></v-select>
                         </v-col>
                         <v-col class="pa-1" cols="12" sm="12" md="4">
-                            <v-select :items="multicentros" label="¿Que multicentro te queda cerca?" solo></v-select>
+                            <v-select :items="multicentros" label="¿Qué multicentro te queda cerca?" solo></v-select>
                         </v-col>
                         <v-col class="pa-1" cols="12" sm="12" md="4">
                             <v-menu
@@ -70,7 +70,7 @@
                                 <template v-slot:activator="{ on, attrs }">
                                 <v-text-field
                                     v-model="time"
-                                    label="Picker in menu"
+                                    label="¿En qué horario puedes asistir a Multicentro?"
                                     prepend-icon="mdi-clock-time-four-outline"
                                     readonly
                                     v-bind="attrs"
@@ -85,42 +85,48 @@
                                 ></v-time-picker>
                             </v-menu>
                         </v-col>
-                        <v-col class="pa-1" cols="12" sm="12" md="4">
-                            <v-checkbox v-model="ex4"
-                            label="Tercera Edad"
-                            color="indigo"
-                            value="red"
-                            hide-details
-                            ></v-checkbox>
-                            <v-checkbox v-model="ex4"
-                            label="Persona con Discapacidad"
-                            color="indigo"
-                            value="red"
-                            hide-details
-                            ></v-checkbox>
-                            <v-checkbox v-model="ex4"
-                            label="Persona Embarazada"
-                            color="indigo"
-                            value="red"
-                            hide-details
-                            ></v-checkbox>
-                            <v-checkbox v-model="ex4"
-                            label="Ninguno"
-                            color="indigo"
-                            value="red"
-                            hide-details
-                            ></v-checkbox>
-                        </v-col>
-                        <v-col class="pa-1" cols="12" sm="12" md="4">
-                            Por favor ingresa 2 números de telefono o celular para contactarnos contigo
-                            <v-text-field label="Telefono" hide-details="auto"></v-text-field>
-                        </v-col>
-                        <v-col class="pa-1" cols="12" sm="12" md="4">
-                            <v-text-field label="Telefono" hide-details="auto"></v-text-field>
-                        </v-col>
-
-
+                        <v-row>
+                            <div class="pa-2 headline grey lighten-2  text-center">
+                               <h5>¿Necesitas atención preferencial?</h5>
+                            </div>
+                             <v-col class="pa-1" cols="12" sm="12" md="4">
+                                    <v-checkbox v-model="ex4"
+                                    label="Tercera Edad"
+                                    color="indigo"
+                                    value="red"
+                                    hide-details
+                                    ></v-checkbox>
+                                    <v-checkbox v-model="ex4"
+                                    label="Persona con Discapacidad"
+                                    color="indigo"
+                                    value="red"
+                                    hide-details
+                                    ></v-checkbox>
+                                    <v-checkbox v-model="ex4"
+                                    label="Persona Embarazada"
+                                    color="indigo"
+                                    value="red"
+                                    hide-details
+                                    ></v-checkbox>
+                                    <v-checkbox v-model="ex4"
+                                    label="Ninguno"
+                                    color="indigo"
+                                    value="red"
+                                    hide-details
+                                    ></v-checkbox>
+                                    <v-col  class="pa-1" cols="12" sm="12" md="4">
+                                        Por favor ingresa 2 números de telefono o celular para contactarnos contigo
+                                    <v-text-field label="Telefono" hide-details="auto"></v-text-field>
+                                    </v-col>
+                                        <v-col class="pa-1" cols="12" sm="12" md="4">
+                                            <v-text-field label="Telefono" hide-details="auto"></v-text-field>
+                                    </v-col>
+                            </v-col>
+                        </v-row>
                     </v-row>
+                    <br>
+                  
+
                 </v-container>
             </v-card-text>
 
